@@ -508,7 +508,7 @@
         //获取与课程列表信息,参数1表示第一页，默认值是1，
         function getCourse(no=1,size=8){
             //使用axios向后端API发送请求获取数据
-        axios.get('http://api.fuming.site:54254/course',{
+        axios.get('https://api.fuming.site/course',{
             params:{
                 pageNo:no,
                 pageSize:size
